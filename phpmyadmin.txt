@@ -1,0 +1,5 @@
+PHP MyAdmin
+
+Usuário: eletropinturas
+Servidor: eletropinturas.mysql.dbaas.com.br
+Senha: eletropinturas

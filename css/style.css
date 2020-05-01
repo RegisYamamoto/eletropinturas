@@ -1,0 +1,372 @@
+header {
+	background-image: url(../img/background.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin-top: -21px;
+}
+
+header h1 {
+	font-family: 'Lato', cursive;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+}
+
+header h2 {
+	color: #fff;
+	text-align: center;
+	font-family: 'Lato', cursive;
+	font-weight: normal;
+}
+
+
+/* SECTION o_que_e */
+section.o_que_e {
+	padding-top: 15px;
+	height: 950px;
+}
+
+section.o_que_e h1 {
+	color: #322e5b;
+	font-family: 'Lato', cursive;
+}
+
+section.o_que_e h2 {
+	color: #322e5b;
+	font-family: 'Lato', cursive;
+}
+
+section.o_que_e p {
+	color: #555;
+}
+
+section.o_que_e img {
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+
+/* SECTION vantagens */
+section.vantagens {
+	padding-top: 15px;
+	height: 600px;
+}
+
+section.vantagens h2 {
+	color: #322e5b;
+	font-family: 'Lato', cursive;
+}
+
+section.vantagens ul {
+	list-style-type: square;
+}
+
+section.vantagens li {
+	color: #555;
+	line-height: 30px;
+	margin-left: 15px;
+}
+
+section.vantagens img {
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+/* SECTION sobre */
+section.sobre {
+	padding-top: 15px;
+	height: 400px;
+}
+
+section.sobre h2 {
+	color: #322e5b;
+	font-family: 'Lato', cursive;
+}
+
+section.sobre p {
+	color: #555;
+}
+
+
+/* SECTION contato */
+section.contato {
+	padding-top: 15px;
+	height: 560px;
+}
+
+section.contato h2 {
+	color: #322e5b;
+	font-family: 'Lato', cursive;
+}
+
+section.contato p {
+	color: #555;
+}
+
+
+footer {
+	height: 120px;
+	background-color: #ccc; /* provisório */
+	padding-top: 15px;
+	text-align: center;
+}
+
+
+@media(max-width: 500px) { /* smartphone */
+	.navbar-brand {
+		font-size: 1em;
+		line-height: 28px;
+	}
+
+	.navbar-toggle {
+		margin-top: 4px;
+	}
+
+	header {
+		background-image: url(../img/background-xs.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		position: relative;
+		top: 50px;
+	}
+
+	header h1 {
+		font-size: 1.5em;
+		padding-top: 160px;
+		font-weight: bolder;
+	}
+
+	header h2 {
+		font-size: 0.9em;
+	}
+
+	section.o_que_e {
+		padding-top: 35px;
+		margin-top: 20px;
+	}
+
+	section.vantagens {
+		padding-top: 30px;
+		height: 700px;
+	}
+
+	section.sobre {
+		padding-top: 30px;
+	}
+
+	section.contato {
+		padding-top: 30px;
+		height: 880px;
+	}
+
+	section.contato form {
+		margin-top: 30px;
+	}
+}
+
+
+@media(min-width: 501px) { /* tablet */
+	header {
+		margin-top: -32px;
+	}
+
+	header h1 {
+		font-size: 3em;
+		padding-top: 130px;
+	}
+
+	header h2 {
+		font-size: 1.2em;
+	}
+
+	section.o_que_e {
+		padding-top: 40px;
+		height: 550px;
+	}
+
+	section.vantagens {
+		padding-top: 40px;
+		height: 730px;
+	}
+
+	section.sobre {
+		padding-top: 40px;
+	}
+
+	section.contato {
+		padding-top: 40px;
+		height: 900px;
+	}
+
+	section.contato form {
+		margin-top: 30px;
+	}
+}
+
+
+@media(max-width: 1000px) { /* mobile */
+	.nav > li:last-child {
+		margin-bottom: 20px;
+	}
+}
+
+
+@media(min-width: 801px) { /* notebook */
+	.navbar-brand {
+		font-size: 1.2em;
+		line-height: 38px;
+	}
+
+	header {
+		margin-top: -43px;
+	}
+
+	header h1 {
+		font-size: 3.5em;
+		padding-top: 220px;
+	}
+
+	header h2 {
+		font-size: 1.4em;
+	}
+
+	.navbar-fixed-top,
+    .navbar-fixed-bottom {
+        z-index: 1030;
+        height: 50px;
+    }
+
+	nav .nav li a {
+		font-size: 0.8em;
+		padding-top: 18px;
+	}
+
+	section.vantagens {
+		height: 860px;
+	}
+
+	section.contato form {
+		margin-top: 0;
+	}
+}
+
+
+@media(min-width: 1501px) { /* desktop */
+	header {
+		margin-top: -53px;
+	}
+
+	header h1 {
+		font-size: 4.9em;
+		padding-top: 300px;
+	}
+
+	header h2 {
+		font-size: 2em;
+	}
+
+	section.o_que_e {
+		height: 600px;
+		margin-top: -2px;
+	}
+
+	section.o_que_e h2 {
+		font-size: 2em;
+	}
+
+	section.vantagens {
+		height: 880px;
+	}
+
+	section.vantagens h2 {
+		font-size: 2em;
+	}
+
+	section.sobre h2 {
+		font-size: 2em;
+	}
+
+	section.contato h2 {
+		font-size: 2em;
+	}
+}
+
+
+/* altura do HEADER */
+@media(max-width: 600px) {
+	header {
+		height: 470px;
+	}
+}
+
+@media(min-width: 601px) {
+	header {
+		height: 400px;
+	}
+}
+
+@media(min-width: 701px) {
+	header {
+		height: 440px;
+	}
+}
+
+@media(min-width: 801px) {
+	header {
+		height: 480px;
+	}
+}
+
+@media(min-width: 801px) {
+	header {
+		height: 520px;
+	}
+}
+
+@media(min-width: 801px) {
+	header {
+		height: 560px;
+	}
+}
+
+@media(min-width: 1101px) {
+	header {
+		height: 600px;
+	}
+}
+
+@media(min-width: 1201px) {
+	header {
+		height: 640px;
+	}
+}
+
+@media(min-width: 1301px) {
+	header {
+		height: 680px;
+	}
+}
+
+@media(min-width: 1401px) {
+	header {
+		height: 720px;
+	}
+}
+
+@media(min-width: 1501px) {
+	header {
+		height: 800px;
+	}
+}
+
+
+/*
+Cores
+
+#322e5b preto
+#e4cd33 amarelo
+#5d23c5 roxo
+*/

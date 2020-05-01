@@ -1,0 +1,5 @@
+FTP
+
+host: eletropinturas.com.br
+usuário: eletropinturas
+senha: regis2001

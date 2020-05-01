@@ -1,0 +1,9 @@
+painelhospedagem.locaweb.com.br
+
+login.locaweb.com.br/login?service=https%3A%2F%2Fpainelhospedagem.locaweb.com.br%2F
+
+
+	mysql01.regisyamamoto1.hospedagemdesites.ws
+	regisyamamoto1
+	regisyamamoto1
+	regis2001
